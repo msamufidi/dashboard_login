@@ -13,6 +13,10 @@
     {
       "src": "/(.*)",
       "dest": "dashboard_login/wsgi.py"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     }
   ]
 }
